@@ -1,22 +1,22 @@
 const data = [
     {
         product_id: 'portfolioModal1',
-        product_name: 'Áo dài Bách Hoa Xuân - Cam trái đào 1',
+        product_name: 'Áo dài Bách Hoa Xuân - Đỏ ánh lụa nhung',
         product_price: '790,000 vnd',
-        product_size: 'AA, A, B, C',
+        product_size: 'A, B, C',
         product_image: [
-            'https://product.hstatic.net/1000136076/product/11_4048d83e8b2940b48ff41c5ad0767a08_master.png',
-            'https://product.hstatic.net/1000136076/product/_mgl0884_b549f1f34a5f414688b0221e3c8ff973_master.jpeg',
-            'https://product.hstatic.net/1000136076/product/_mgl0873_65dea55452ec4575b19e609eff3dcd22_master.jpeg',
-            'https://product.hstatic.net/1000136076/product/_mgl0877_b87c74e4fc6f4842b0f1789f9b085b57_master.jpeg',
+            'https://product.hstatic.net/1000136076/product/_mgl5166_a43cd1467e914f43af84d018fdca4efe_master.png',
+            'https://product.hstatic.net/1000136076/product/_mgl5196_5efea53e3ee34dce9a0333af5a422554_1024x1024.png',
+            'https://product.hstatic.net/1000136076/product/_mgl5166_a43cd1467e914f43af84d018fdca4efe_1024x1024.png',
+            'https://product.hstatic.net/1000136076/product/img_8538_5d2d670aa210496ca4c592a07fb26a2c_1024x1024.png',
             'https://file.hstatic.net/1000136076/file/adtt72_fe24cf4128b34ad284dcf5bb7bc40638.jpg'
         ]
     },
     {
         product_id: 'portfolioModal2',
-        product_name: 'Áo dài Bách Hoa Xuân - Cam trái đào 2',
+        product_name: 'Áo dài Bách Hoa Xuân - Cam trái đào',
         product_price: '790,000 vnd',
-        product_size: 'AA, A, B, C',
+        product_size: 'A, B, C',
         product_image: [
             'https://product.hstatic.net/1000136076/product/11_4048d83e8b2940b48ff41c5ad0767a08_master.png',
             'https://product.hstatic.net/1000136076/product/_mgl0884_b549f1f34a5f414688b0221e3c8ff973_master.jpeg',
@@ -27,27 +27,29 @@ const data = [
     },
     {
         product_id: 'portfolioModal3',
-        product_name: 'Áo dài Bách Hoa Xuân - Cam trái đào 2',
-        product_price: '790,000 vnd',
+        product_name: 'Áo dài Bách Hoa Xuân - Hoa Niên Ca (limited) - Tím hoa mai',
+        product_price: '850,000 vnd',
         product_size: 'AA, A, B, C',
         product_image: [
-            'https://product.hstatic.net/1000136076/product/11_4048d83e8b2940b48ff41c5ad0767a08_master.png',
-            'https://product.hstatic.net/1000136076/product/_mgl0884_b549f1f34a5f414688b0221e3c8ff973_master.jpeg',
-            'https://product.hstatic.net/1000136076/product/_mgl0873_65dea55452ec4575b19e609eff3dcd22_master.jpeg',
-            'https://product.hstatic.net/1000136076/product/_mgl0877_b87c74e4fc6f4842b0f1789f9b085b57_master.jpeg',
+            'https://file.hstatic.net/1000136076/file/img_5095_28b419fd90dc4156a6b5b727439f3614.png',
+            'https://file.hstatic.net/1000136076/file/img_5081_37d213ab5f78446585f24cdd8f199971.png',
+            'https://file.hstatic.net/1000136076/file/img_5134_e282e6125f4d4b739a408e3ccc67198b.png',
+            'https://file.hstatic.net/1000136076/file/img_5140_e954dd467ad34767bbb63fe7231fbe44.png',
+            'https://file.hstatic.net/1000136076/file/img_5171_336fd6944bd744f0a9239c8cb1fa9d9d.png',
             'https://file.hstatic.net/1000136076/file/adtt72_fe24cf4128b34ad284dcf5bb7bc40638.jpg'
         ]
     },
     {
         product_id: 'portfolioModal4',
-        product_name: 'Áo dài Bách Hoa Xuân - Cam trái đào 2',
+        product_name: 'Áo dài Bách Hoa Xuân - Tím hoa phong lan',
         product_price: '790,000 vnd',
         product_size: 'AA, A, B, C',
         product_image: [
-            'https://product.hstatic.net/1000136076/product/11_4048d83e8b2940b48ff41c5ad0767a08_master.png',
-            'https://product.hstatic.net/1000136076/product/_mgl0884_b549f1f34a5f414688b0221e3c8ff973_master.jpeg',
-            'https://product.hstatic.net/1000136076/product/_mgl0873_65dea55452ec4575b19e609eff3dcd22_master.jpeg',
-            'https://product.hstatic.net/1000136076/product/_mgl0877_b87c74e4fc6f4842b0f1789f9b085b57_master.jpeg',
+            'https://product.hstatic.net/1000136076/product/_mgm4960_3deffa00cfb64bc9b4df98c5b04869b6_master.png',
+            'https://product.hstatic.net/1000136076/product/_mgm4976_1343f926c2f844a1924b1ef7a1e399d2_1024x1024.png',
+            'https://product.hstatic.net/1000136076/product/_mgl5014_07d74aec17ec44bb886e9b8966ea974e_1024x1024.png',
+            'https://product.hstatic.net/1000136076/product/_mgl5009_a07559400960473682f924f0bcb09254_1024x1024.png',
+            'https://product.hstatic.net/1000136076/product/img_8538_5d2d670aa210496ca4c592a07fb26a2c_1024x1024.png',
             'https://file.hstatic.net/1000136076/file/adtt72_fe24cf4128b34ad284dcf5bb7bc40638.jpg'
         ]
     },

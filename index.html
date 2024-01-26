@@ -108,7 +108,6 @@
             </div>
         </section>
         <!-- About-->
-        <!-- <section class="page-section" id="about">
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">About</h2>
@@ -278,6 +277,38 @@
                 </form>
             </div>
         </section>
+
+        <!-- Messenger Plugin chat Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Plugin chat code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "220027521192011");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v19.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+
         <!-- Footer-->
         <footer class="footer py-4">
             <div class="container">
@@ -314,5 +345,6 @@
         <script src="js/scripts.js"></script>
         <script src="js/data.js"></script>
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+        
     </body>
 </html>
